@@ -1,0 +1,162 @@
+{
+    "name": "ControlesMando",
+    "maps": [
+        {
+            "name": "Juego",
+            "id": "4bb7367d-dddf-4af3-8b23-6ae5c0cea496",
+            "actions": [
+                {
+                    "name": "Aumentar",
+                    "type": "Button",
+                    "id": "52765416-127a-4779-a054-9d71491eb0e2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Disminuir",
+                    "type": "Button",
+                    "id": "1073e224-ffe2-4a83-ac4d-ed6461f255a9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotarDerecha",
+                    "type": "Button",
+                    "id": "35beecc8-9647-4b83-bcaa-b24620314a24",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotarIzquierda",
+                    "type": "Button",
+                    "id": "ce65720f-eb88-488a-82c0-c748f93e1b50",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Adelante",
+                    "type": "Button",
+                    "id": "6ad0fd50-2618-49f2-a4d3-fe83c16d99f6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Atras",
+                    "type": "Button",
+                    "id": "7174e490-2ac5-4ed5-b479-2796f05695d2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "17a89361-bd9c-4f0d-a2f3-d85f443ac1d5",
+                    "path": "<HID::GreenAsia Inc.    USB Joystick     >/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aumentar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8a9a0a6e-e261-48c3-86ea-92311b37474a",
+                    "path": "<HID::GreenAsia Inc.    USB Joystick     >/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Disminuir",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "83105514-9e7d-4726-886f-747f24e317bc",
+                    "path": "<HID::GreenAsia Inc.    USB Joystick     >/hat/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotarDerecha",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e12247e6-1a39-43f1-8c4e-b62b9ae51653",
+                    "path": "<HID::GreenAsia Inc.    USB Joystick     >/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotarIzquierda",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a65db8d9-c343-4a01-9275-fef049015577",
+                    "path": "<HID::GreenAsia Inc.    USB Joystick     >/hat/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Adelante",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0880da0-d2b0-4314-8f4c-a1f9c56b0bdd",
+                    "path": "<HID::GreenAsia Inc.    USB Joystick     >/hat/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Atras",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "New action map1",
+            "id": "28c232d4-63ca-46d9-86bd-593999539576",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "7c18ad55-feba-4c66-806c-31e9644dcbdb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bdf7e170-ef4b-465a-bcbd-bc563a1fcca9",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
